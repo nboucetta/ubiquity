@@ -1,3 +1,58 @@
+/* montserrat-regular */
+@font-face {
+	font-display: swap;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	src: local(""),
+		url("../fonts/montserrat-regular.woff2") format("woff2"),
+		url("../fonts/montserrat-regular.woff") format("woff");
+}
+
+/* montserrat-medium */
+@font-face {
+	font-display: swap;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	src: local(""),
+		url("../fonts/montserrat-medium.woff2") format("woff2"),
+		url("../fonts/montserrat-medium.woff") format("woff");
+}
+
+/* montserrat-bold */
+@font-face {
+	font-display: swap;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	src: local(""),
+		url("../fonts/montserrat-bold.woff2") format("woff2"),
+		url("../fonts/montserrat-bold.woff") format("woff");
+}
+
+/* raleway-semibold */
+@font-face {
+	font-display: swap;
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 600;
+	src: local(""),
+		url("../fonts/raleway-semibold.woff2") format("woff2"),
+		url("../fonts/raleway-semibold.woff") format("woff");
+}
+
+/* raleway-bold */
+@font-face {
+	font-display: swap;
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	src: local(""),
+		url("../fonts/raleway-bold.woff2") format("woff2"),
+		url("../fonts/raleway-bold.woff") format("woff");
+}
+
 /* Styles généraux */
 :root {
 	--primary-color: #f16822;
@@ -137,6 +192,7 @@ p {
 }
 
 /* Hero */
+
 .hero {
 	display: flex;
 	align-items: center;
@@ -144,6 +200,10 @@ p {
 	background-size: cover;
 	background-position: center;
 	min-height: 80vh;
+}
+
+.hero .container {
+	display: flex;
 }
 
 @media (min-resolution: 144dpi) {
