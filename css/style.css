@@ -185,7 +185,8 @@ p {
 	transition: 0.5s;
 }
 
-.home:hover {
+.home:hover,
+.home:focus {
 	color: var(--primary-color);
 	background-color: white;
 	transition: 0.5s;
@@ -238,6 +239,16 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.service-item h3 a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.service-item h3 a:hover,
+.service-item h3 a:focus {
+	color: var(--primary-color) ;
 }
 
 .service-img {
@@ -310,6 +321,17 @@ p {
 
 .post-card img {
 	margin-bottom: 7.4rem;
+}
+
+.post-card a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+.post-card a:hover,
+.post-card a:focus {
+	color: #333333;
+	text-decoration: underline;
 }
 
 .blog-post-title {
