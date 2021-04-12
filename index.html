@@ -15,7 +15,8 @@
 			<div class="container">
 				<div class="logo"></div>
 				<nav class="main-nav">
-					<ul class="menu">
+					<button class="toggle-menu" aria-expanded="false" aria-controls="menu"></button>
+					<ul id="menu" class="menu" role="list" hidden>
 						<li class="menu-item">
 							<a href="#" class="menu-link home">Home</a>
 						</li>
@@ -302,5 +303,8 @@
 			</div>
 			
 		</section>
+		
+		<script src="js/nav.js"></script>
+
 	</body>
 </html>
